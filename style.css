@@ -1,0 +1,668 @@
+body {
+    height: 100%;
+    width: 100%;
+}
+* {
+    margin: 0;
+}
+
+@media (min-width: 1024px) {
+    .main {
+        margin: auto;
+        height: 1000px;
+        width: 100%;
+    }
+
+    .ciuciuka {
+        margin-left: 20px;
+    }
+
+    .logotipasmotion {
+        margin-right: 100px;
+    }
+
+    .header {
+        background-image: url(img/headershape.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px;
+        padding: 0px;
+        max-width: 100%;
+        height: 100px;
+    }
+
+    .welcome {
+        background-image: url(img/shape1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px;
+        padding: 0px;
+        max-width: 100%;
+        height: 600px;
+    }
+
+    .smart {
+        background-image: url(img/shape2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px;
+        padding: 0px;
+        max-width: 100%;
+        height: 350px;
+    }
+
+    .team {
+        background-image: url(img/shape3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px;
+        padding: 0px;
+        max-width: 100%;
+        height: 400px;
+    }
+
+
+    .elegant {
+        background-image: url(img/shape4.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px;
+        padding: 0px;
+        max-width: 100%;
+        height: 900px;
+    }
+
+    .carousel-indicators {
+        bottom: -50px;
+    }
+
+    .carousel-indicators li, carousel-indicators li.active {
+        width: 10px;
+        height: 10px;
+        margin: 4px;
+        border-radius: 50%;
+        border: none;
+    }
+
+    .carousel-indicators .active {
+        opacity: 1;
+        background: yellowgreen;
+    }
+
+    .carousel-indicators li {
+        background: rgba(0, 0, 0, 0.8);
+    }
+
+    .elegantCarousel {
+        height: 250px;
+    }
+
+    .cardsRow {
+        max-width: 100%;
+        height: 100px;
+    }
+
+    .remai {
+        border: 0;
+    }
+
+    .tweets {
+        background-image: url(img/shape5.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px;
+        padding: 0px;
+        max-width: 100%;
+        height: 300px;
+    }
+
+    .mini {
+        background-image: url(img/shape6.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px;
+        padding: 0px;
+        max-width: 100%;
+        height: 50px;
+    }
+
+    .map {
+        background-image: url(img/shapemap.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px;
+        padding: 0px;
+        max-width: 100%;
+        height: 150px;
+    }
+
+    .minusmargin {
+        height: 300px;
+        width: 220px;
+    }
+
+    #pirmasteams {
+        background-image: url("img/member1.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 250px;
+        width: 200px;
+        margin-left: 105px;
+    }
+    #antrasteams {
+        background-image: url("img/member2.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 250px;
+        width: 200px;
+        margin-left: -40px;
+    }
+    #treciasteams {
+        background-image: url("img/member3.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 250px;
+        width: 200px;
+        margin-left: -60px;
+    }
+    #ketvirtasteams {
+        background-image: url("img/member4.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 250px;
+        width: 200px;
+        margin-left: -50px;
+    }
+    .startup {
+        margin-right: 15px;
+        margin-top: -2px;
+    }
+    .standart {
+        margin-right: 15px;
+        margin-top: -30px;
+    }
+    .professional {
+        margin-top: -2px;
+    }
+    .price {
+        height: 450px;
+    }
+}
+
+@media (min-width: 427px) and (max-width: 1023px) {
+    .main {
+        height: 100%;
+    }
+
+    .hideimage {
+        display: none;
+    }
+
+    .pastumimas {
+        margin-right: 150px;
+    }
+
+
+    .header {
+        background-image: url(img/headershape.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px;
+        padding: 0px;
+        max-width: 100%;
+        height: 100px;
+    }
+
+    .welcome {
+        background-image: url(img/shape1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px;
+        padding: 0px;
+        max-width: 100%;
+        height: 500px;
+    }
+
+    .smart {
+        background-image: url(img/shape2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px;
+        padding: 0px;
+        max-width: 100%;
+        height: 350px;
+    }
+
+    .team {
+        background-image: url(img/shape3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px;
+        padding: 0px;
+        max-width: 100%;
+        height: 850px;
+    }
+
+    .card-group {
+        width: 70%;
+    }
+
+    .elegant {
+        background-image: url(img/shape4.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px;
+        padding: 0px;
+        max-width: 100%;
+        height: 600px;
+    }
+
+    .carousel-indicators {
+        bottom: -10px;
+    }
+
+    .carousel-indicators li, carousel-indicators li.active {
+        width: 10px;
+        height: 10px;
+        margin: 4px;
+        border-radius: 50%;
+        border: none;
+    }
+
+    .carousel-indicators .active {
+        opacity: 1;
+        background: yellowgreen;
+    }
+
+    .carousel-indicators li {
+        background: rgba(0, 0, 0, 0.8);
+    }
+
+
+
+    .cardsRow {
+        max-width: 100%;
+        height: 100px;
+    }
+
+    .remai {
+        border: 0;
+    }
+
+    .tweets {
+        background-image: url(img/shape5.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px;
+        padding: 0px;
+        max-width: 100%;
+        height: 300px;
+    }
+
+    .mini {
+        background-image: url(img/shape6.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px;
+        padding: 0px;
+        max-width: 100%;
+        height: 50px;
+    }
+
+    .map {
+        background-image: url(img/shapemap.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px;
+        padding: 0px;
+        max-width: 100%;
+        height: 150px;
+    }
+    #pirmasteams {
+        background-image: url("img/member1.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 342px;
+        margin-left: 30px;
+        margin-bottom: 10px;
+    }
+    #antrasteams {
+        background-image: url("img/member2.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 342px;
+        margin-left: 32px;
+        margin-bottom: 10px;
+    }
+    #treciasteams {
+        background-image: url("img/member3.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 342px;
+        margin-left: 37px;
+    }
+    #ketvirtasteams {
+        background-image: url("img/member4.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 342px;
+        margin-left: 25px;
+    }
+    .startup {
+        margin-right: 15px;
+        margin-top: -15px;
+    }
+    .standart {
+        margin-right: 15px;
+        margin-top: -30px;
+    }
+    .professional {
+        margin-top: -15px;
+    }
+
+
+
+
+
+}
+
+@media (min-width: 375px) and (max-width: 426px) {
+    .main {
+        height: 1000px;
+    }
+    .hidelogo {
+        display: none;
+    }
+
+    .header {
+        background-image: url(img/headershape.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px;
+        padding: 0px;
+        max-width: 100%;
+        height: 100px;
+    }
+
+    .welcome {
+        background-image: url(img/shape1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px;
+        padding: 0px;
+        max-width: 100%;
+        height: 350px;
+    }
+
+    .smart {
+        background-image: url(img/shape2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px;
+        padding: 0px;
+        max-width: 100%;
+        height: 600px;
+    }
+
+    .team {
+        background-image: url(img/shape3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px;
+        padding: 0px;
+        max-width: 100%;
+        height: 1550px;
+    }
+
+
+    .elegant {
+        background-image: url(img/shape4.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px;
+        padding: 0px;
+        max-width: 100%;
+        height: 2300px;
+    }
+    .lygiuoti {
+        margin-left: 90px;
+    }
+    .krastine {
+        margin-left: 15px;
+    }
+
+    .cardsRow {
+        max-width: 100%;
+        height: 100px;
+    }
+
+    .remai {
+        border: 0;
+    }
+
+    .tweets {
+        background-image: url(img/shape5.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px;
+        padding: 0px;
+        max-width: 100%;
+        height: 350px;
+    }
+
+    .mini {
+        background-image: url(img/shape6.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px;
+        padding: 0px;
+        max-width: 100%;
+        height: 100px;
+    }
+
+    .map {
+        background-image: url(img/shapemap.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px;
+        padding: 0px;
+        max-width: 100%;
+        height: 150px;
+    }
+    #pirmasteams {
+        background-image: url("img/member1.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 342px;
+        margin-left: 65px;
+        margin-bottom: 5px;
+    }
+    #antrasteams {
+        background-image: url("img/member2.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 342px;
+        margin-left: 80px;
+        margin-bottom: 5px;
+    }
+    #treciasteams {
+        background-image: url("img/member3.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 342px;
+        margin-left: 71px;
+        margin-bottom: 5px;
+    }
+    #ketvirtasteams {
+        background-image: url("img/member4.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 342px;
+        margin-left: 80px;
+    }
+    #varnele1 {
+        width: 130px;
+    }
+    #twiteriukas {
+        width: 130px;
+    }
+    #varnele2 {
+        width: 50px;
+    }
+    .langelis {
+        width: 250px;
+        height: 80px;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .main {
+        height: 1000px;
+    }
+    .hidelogo {
+        display: none;
+    }
+
+    .header {
+        background-image: url(img/headershape.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px;
+        padding: 0px;
+        max-width: 100%;
+        height: 100px;
+    }
+
+    .welcome {
+        background-image: url(img/shape1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px;
+        padding: 0px;
+        max-width: 100%;
+        height: 350px;
+    }
+
+    .smart {
+        background-image: url(img/shape2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px;
+        padding: 0px;
+        max-width: 100%;
+        height: 600px;
+    }
+
+    .team {
+        background-image: url(img/shape3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px;
+        padding: 0px;
+        max-width: 100%;
+        height: 1550px;
+    }
+
+
+    .elegant {
+        background-image: url(img/shape4.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px;
+        padding: 0px;
+        max-width: 100%;
+        height: 2000px;
+    }
+    .lygiuoti {
+        margin-left: 30px;
+    }
+    .krastine {
+        margin-left: 15px;
+    }
+
+    .cardsRow {
+        max-width: 100%;
+        height: 100px;
+    }
+
+    .remai {
+        border: 0;
+    }
+
+    .tweets {
+        background-image: url(img/shape5.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px;
+        padding: 0px;
+        max-width: 100%;
+        height: 350px;
+    }
+
+    .mini {
+        background-image: url(img/shape6.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px;
+        padding: 0px;
+        max-width: 100%;
+        height: 100px;
+    }
+
+    .map {
+        background-image: url(img/shapemap.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0px;
+        padding: 0px;
+        max-width: 100%;
+        height: 150px;
+    }
+    #pirmasteams {
+        background-image: url("img/member1.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 342px;
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+    #antrasteams {
+        background-image: url("img/member2.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 342px;
+        margin-left: 26px;
+        margin-bottom: 5px;
+    }
+    #treciasteams {
+        background-image: url("img/member3.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 342px;
+        margin-left: 17px;
+        margin-bottom: 5px;
+    }
+    #ketvirtasteams {
+        background-image: url("img/member4.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 342px;
+        margin-left: 25px;
+    }
+    #varnele1 {
+        width: 120px;
+    }
+    #twiteriukas {
+        width: 100px;
+    }
+    #varnele2 {
+        width: 20px;
+    }
+    .langelis {
+        width: 250px;
+        height: 80px;
+    }
+
+}
+
